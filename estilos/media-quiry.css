@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Typical Device Breakponints
+------------------------------
+pequenas telas: até 600px
+Celular: de 601px até 768px
+Tablet:1025px até 1280px
+Desktop:1281px até 1441px
+Grandes telas:acima de 1441px
+*/
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+    
+}
+
+@media  and (min-width: 1281px) {
+     body {
+     background-image: linear-gradient(to top, #49a09d, #5f2c82);
+     }
+     section#login {
+        width: 950px;
+     }
+
+     section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+     }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
