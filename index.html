@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key" />
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- Aqui vai a imagem nas CSS -->
+            </div>
+            <div id="Login">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login paraa acessar sua conta e poder fazer as configurações no sue ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <label for="imail"><span class="material-symbols-outlined">
+                        mail
+                        </span></label>
+                    <input type="email" name="email" id="imail" required placeholder="Seu E-Mail"> <br>
+
+                    <label for="isen"><span class="material-symbols-outlined">
+                        key
+                        </span></label>
+                    <input type="password" name="senha" id="isen" required minlength="8" placeholder="Sua Senha" autocomplete="current-password"> <br>
+
+                    <input type="button" value="Entrar">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
