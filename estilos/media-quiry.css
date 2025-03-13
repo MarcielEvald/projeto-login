@@ -31,7 +31,7 @@ Grandes telas:acima de 1441px
     
 }
 
-@media  and (min-width: 1281px) {
+@media screen and (min-width: 1281px) {
      body {
      background-image: linear-gradient(to top, #49a09d, #5f2c82);
      }
@@ -40,13 +40,21 @@ Grandes telas:acima de 1441px
      }
 
      section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
      }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
